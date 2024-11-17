@@ -13,8 +13,6 @@ from astropy.coordinates import solar_system_ephemeris
 
 
 
-
-
 class StepperMotor:
 
     def __init__(self):
@@ -81,16 +79,6 @@ class StepperMotor:
     def resetMotorPos(self):
         self.currentPos = 0
         rotateVal = 0
-
-
-
-
-
-
-
-
-
-
 
 
 
